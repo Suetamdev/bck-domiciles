@@ -143,7 +143,7 @@
 						is_imprisoned = no
 					}
 					faith = {
-						if = {
+						if = { 
 							limit = {
 								NOT = { is_in_list = unique_faiths }
 								add_to_temporary_list = unique_faiths
