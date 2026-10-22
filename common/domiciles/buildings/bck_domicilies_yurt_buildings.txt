@@ -11641,8 +11641,7 @@ trade_yurt_01 = {
 			text = trade_yurt_unlock_req
 			any_neighboring_top_liege_realm_owner = {
 				NOT = {
-					government_has_flag = government_is_herder
-					government_has_flag = government_is_nomadic
+					government_has_flag = government_is_in_steppe
 				}
 			}
 		}	
@@ -11689,8 +11688,7 @@ trade_yurt_02 = {
 			text = trade_yurt_unlock_req
 			any_neighboring_top_liege_realm_owner = {
 				NOT = {
-					government_has_flag = government_is_herder
-					government_has_flag = government_is_nomadic
+					government_has_flag = government_is_in_steppe
 				}
 			}
 		}	
@@ -11737,8 +11735,7 @@ trade_yurt_03 = {
 			text = trade_yurt_unlock_req
 			any_neighboring_top_liege_realm_owner = {
 				NOT = {
-					government_has_flag = government_is_herder
-					government_has_flag = government_is_nomadic
+					government_has_flag = government_is_in_steppe
 				}
 			}
 		}	
@@ -11785,8 +11782,7 @@ trade_yurt_04 = {
 			text = trade_yurt_unlock_req
 			any_neighboring_top_liege_realm_owner = {
 				NOT = {
-					government_has_flag = government_is_herder
-					government_has_flag = government_is_nomadic
+					government_has_flag = government_is_in_steppe
 				}
 			}
 		}	
@@ -11838,8 +11834,7 @@ trade_yurt_05 = {
 			text = trade_yurt_unlock_req
 			any_neighboring_top_liege_realm_owner = {
 				NOT = {
-					government_has_flag = government_is_herder
-					government_has_flag = government_is_nomadic
+					government_has_flag = government_is_in_steppe
 				}
 			}
 		}	
@@ -11887,8 +11882,7 @@ trade_yurt_06 = {
 			text = trade_yurt_unlock_req
 			any_neighboring_top_liege_realm_owner = {
 				NOT = {
-					government_has_flag = government_is_herder
-					government_has_flag = government_is_nomadic
+					government_has_flag = government_is_in_steppe
 				}
 			}
 		}	
@@ -12351,7 +12345,6 @@ merchant_yurt_01 = {
 
 	parameters = {
 		nomad_yurt_paiza_more_gold_lvl_1 = yes
-		nomad_yurt_merchant_bonus_lvl_1 = yes
 	}
 
 	character_modifier = {
@@ -12388,7 +12381,6 @@ merchant_yurt_02 = {
 
 	parameters = {
 		nomad_yurt_paiza_more_gold_lvl_1 = yes
-		nomad_yurt_merchant_bonus_lvl_1 = yes
 	}
 
 	ai_value = {
@@ -12421,7 +12413,6 @@ merchant_yurt_03 = {
 
 	parameters = {
 		nomad_yurt_paiza_more_gold_lvl_2 = yes
-		nomad_yurt_merchant_bonus_lvl_2 = yes
 	}
 
 	ai_value = {
@@ -12454,7 +12445,6 @@ merchant_yurt_04 = {
 
 	parameters = {
 		nomad_yurt_paiza_more_gold_lvl_2 = yes
-		nomad_yurt_merchant_bonus_lvl_2 = yes
 	}
 
 	ai_value = {
@@ -12487,7 +12477,6 @@ merchant_yurt_05 = {
 
 	parameters = {
 		nomad_yurt_paiza_more_gold_lvl_2 = yes
-		nomad_yurt_merchant_bonus_lvl_2 = yes
 	}
 
 	ai_value = {
@@ -12520,7 +12509,6 @@ merchant_yurt_06 = {
 
 	parameters = {
 		nomad_yurt_paiza_more_gold_lvl_3 = yes
-		nomad_yurt_merchant_bonus_lvl_3 = yes
 	}
 
 	ai_value = {
@@ -15523,4 +15511,3 @@ paiza_metal_trade_yurt_06 = {
 		soundeffect = "event:/DLC/CE2/UI/camp_buildings/ce2_ui_domicile_buildings_mainYurt"
 	}
 }
-
